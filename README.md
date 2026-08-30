@@ -41,7 +41,7 @@ The environment simulates a small corporate Windows domain with multiple domain 
 
 ## Active Directory Administration
 
-![](active-directory/ou-structure)
+![](screenshots/active-directory/ou-structure.png)
 
 Built and administered a structured Active Directory environment including:
 
@@ -141,7 +141,7 @@ Simulated unauthorized Domain Admin membership changes and monitored the corresp
 
 ## Security Monitoring / Wazuh
 
-![](wazuh/wazuh-dashboard.png)
+![](screenshots/wazuh/wazuh-dashboard.png)
 
 Deployed a Wazuh SIEM server and enrolled Windows systems as agents.
 
@@ -168,7 +168,7 @@ Attack simulations were then repeated to verify telemetry and detection behavior
 
 ---
 
-![](wazuh/password-spray-alert.png)
+![](screenshots/wazuh/password-spray-alert.png)
 
 ## PowerShell Automation
 
