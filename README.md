@@ -4,6 +4,8 @@ A hands-on Windows enterprise homelab built to develop practical experience with
 
 The environment simulates a small corporate Windows domain with multiple domain controllers, Windows endpoints, a file server, centralized logging, and an attacker system.
 
+![](Diagrams/network-diagram.png)
+
 ## Lab Environment
 
 - Windows Server 2025
@@ -38,6 +40,8 @@ The environment simulates a small corporate Windows domain with multiple domain 
 ---
 
 ## Active Directory Administration
+
+![](active-directory/ou-structure)
 
 Built and administered a structured Active Directory environment including:
 
@@ -137,6 +141,8 @@ Simulated unauthorized Domain Admin membership changes and monitored the corresp
 
 ## Security Monitoring / Wazuh
 
+![](wazuh/wazuh-dashboard.png)
+
 Deployed a Wazuh SIEM server and enrolled Windows systems as agents.
 
 Centralized Windows Security logs including:
@@ -161,6 +167,8 @@ Built custom Wazuh detections for:
 Attack simulations were then repeated to verify telemetry and detection behavior.
 
 ---
+
+![](wazuh/password-spray-alert.png)
 
 ## PowerShell Automation
 
