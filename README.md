@@ -194,11 +194,24 @@ active-directory-security-lab/
 ├── diagrams/
 │   └── network-diagram.png
 │
-├── screenshots/
-│   ├── active-directory/
-│   ├── laps/
-│   ├── wazuh/
-│   └── security-testing/
+├── docs/
+│   ├── architecture/
+│   │   ├── domain-design.md
+│   │   ├── gpo-design.md
+│   │   └── permissions-model.md
+│   │
+│   ├── case-studies/
+│   │   ├── account-lockout.md
+│   │   ├── broken-gpo.md
+│   │   ├── dns-failure.md
+│   │   ├── replication-failure.md
+│   │   └── broken-trust.md
+│   │
+│   └── security/
+│       ├── password-spray-investigation.md
+│       ├── kerberoasting-remediation.md
+│       ├── laps-deployment.md
+│       └── privileged-group-monitoring.md
 │
 ├── powershell/
 │   ├── Create-ADUsers.ps1
@@ -211,5 +224,16 @@ active-directory-security-lab/
 │   ├── Query-SecurityLogs.ps1
 │   └── Export-SecurityLogReport.ps1
 │
-└── sample-data/
-    └── ad_users_sample.csv
+├── sample-data/
+│   ├── ad_users_sample.csv
+│   └── terminated_users_sample.csv
+│
+└── screenshots/
+    ├── active-directory/
+    ├── group-policy/
+    ├── permissions/
+    ├── laps/
+    ├── wazuh/
+    ├── powershell/
+    ├── troubleshooting/
+    └── security-testing/
